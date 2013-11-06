@@ -70,6 +70,13 @@ p {
     padding:0.5em 0;
 }
 
+.hero-initiaal{
+    height:15em;
+    margin:auto;
+    display:block;
+    padding:0.5em 0;
+}
+
 .wrap-hero {
     background-color: #dc695a;
     height: 100%;
@@ -83,9 +90,37 @@ p {
     color: #f4f3ef;
 }
 
+.tekst-hero-header {
+    color: #2e2c2c;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+
+p.tekst-hero-header {
+    font-size: 0.75em;
+
+}
+
 .img-hero {
     margin: auto;
     display: block;
+}
+
+.img-portf {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    width:228px;
+    height:406px;
+}
+
+.img-portf-gr {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    width:600px;
+    height:450px;
 }
 
 .wrap-foot {
