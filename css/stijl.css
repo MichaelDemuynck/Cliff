@@ -16,7 +16,7 @@ h2 {
     font-size: 1.125em;
     line-height: 23px;
     letter-spacing: 1px;
-    margin: 0 0 23px 0;
+    margin: 15px 0 15px 0;
 }
 
 p {
@@ -123,6 +123,22 @@ p.tekst-hero-header {
     height:450px;
 }
 
+.img-medic {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    width:308px;
+    height:402px;
+}
+
+.wrap-medic{
+    /*background-color:#8CBEB2;*/
+}
+
+.wrap-drie{
+    background-color:#8CBEB2;
+}
+
 .wrap-foot {
     background-color: #2e2c2c;
 }
@@ -133,6 +149,11 @@ p.tekst-hero-header {
 
 .tekst-content {
     color: #2e2c2c;
+}
+
+.tekst-ambacht{
+    color: #2e2c2c;
+    padding:2em 0;
 }
 
 .wrap-content-2 {
@@ -152,7 +173,7 @@ p.tekst-hero-header {
 }
 
 .ruimte-foot{
-    padding: 1.5em 0;
+    padding: 3.5em 0;
 }
 
 .tekst-foot{
@@ -165,7 +186,7 @@ p.tekst-hero-header {
 }
 
 .img-coords{
-    width:32px;
+    width:24px;
 }
 
 .nav-foot li{
@@ -185,4 +206,52 @@ p.tekst-hero-header {
 
 .tekst-incognito{
     color:#6FCFEB;
+}
+
+.tekst-medic {
+    color: #2e2c2c;
+}
+
+/********************************************
+
+---------------AMBACHTEN---------------------
+
+********************************************/
+.ambachten-balk{
+
+}
+.ambacht-houder{
+    width:75%;
+    height:30px;
+    background-color:#eceff2;
+    border-radius:8px;
+    margin:0 auto;
+    -webkit-box-shadow: 0px 4px 0px #e4e6e9; 
+    -moz-box-shadow: 0px 4px 0px #e4e6e9; 
+    box-shadow: 0px 4px 0px #e4e6e9;
+}
+
+.ambacht-vulling{
+    height:100%;
+    border-radius:8px;
+    border-radius: 8px 0 0 8px;
+}
+.ambacht-schatting-25{
+    width:25%;
+}
+.ambacht-schatting-50{
+    width:50%;
+}
+.ambacht-schatting-75{
+    width:75%;
+}
+.ambacht-schatting-100{
+    width:100%;
+    border-radius: 8px;
+}
+.munt-kleur{
+    background-color:#8CBEB2;    
+}
+.zalmlicht-kleur{
+    background-color:#dc695a;
 }
